@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Signup</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.css">
+
+
+    <!--script cdn-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="container">
+            <div class="card mx-auto my-5" id="signup-container">
+                <div class="card-header bg-primary text-center text-light">REGISTER</div>
+                <div class="card-body text-light" id="signup-back">
+                    <form action="/Register" method="POST">
+                        <input type="text" name="username" placeholder="&#xf2bd; Your name" id="login-user" required
+                            style="background: none">
+                        <input type="email" name="email" placeholder="&#xf0e0; Email id" id="login-user" required
+                            style="background: none">
+                        <input type="password" name="password" placeholder="&#xf023; Password" id="login-password"
+                            required style="background: none">
+                        <input type="text" name="phone" placeholder="&#xf095; Phone no" id="login-password" required
+                            style="background: none">
+                        <button class="btn btn-lg btn-primary col-12 rounded-0 mb-3" type="submit">Signup</button>
+                    </form>
+                    <div class="col-12 text-center">
+                        <span style="color:grey;text-decoration:none;">Already a member?</span><a href="login.html">Sign
+                            in</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>

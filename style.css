@@ -1,0 +1,73 @@
+@charset "utf-8";
+
+/* start login page style coding*/
+body {
+    padding: 0;
+    margin: 0;
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+}
+
+#login-back {
+    background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .7)), url(photos/vo28ssjt25l21.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+#login-container {
+    width: 400px;
+
+}
+
+#login-back input[type='text'],
+[type='password'],
+[type='email'],
+[type='number']::placeholder {
+    font-family: fontAwesome;
+    font-size: 18px;
+    color: gray;
+}
+
+#login-back input[type='text'],
+[type='password'],
+[type='email'],
+[type='number'] {
+    width: 100%;
+    padding: 13px;
+    border: 1px solid grey;
+    margin-bottom: 25px;
+    outline: none;
+}
+
+/*start signup coding*/
+#signup-container {
+    width: 400px;
+}
+
+#signup-back {
+    background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .7)), url(photos/vo28ssjt25l21.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+#signup-back input[type='text'],
+[type='password'],
+[type='email'],
+[type='number']::placeholder {
+    font-family: fontAwesome;
+    font-size: 18px;
+    color: gray;
+}
+
+#signup-back input[type='text'],
+[type='password'],
+[type='email'],
+[type='number'] {
+    width: 100%;
+    padding: 13px;
+    border: 1px solid grey;
+    margin-bottom: 25px;
+    outline: none;
+    color: white;
+}

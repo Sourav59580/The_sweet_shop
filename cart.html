@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HOME</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+    body {
+        padding: 0;
+        margin: 0;
+    }
+
+    /*start header coding */
+    header {
+        width: 100%;
+    }
+
+    .logo-content {
+        float: left;
+    }
+
+    .logo-content img {
+        width: 250px;
+    }
+
+    .address-content {
+        float: right;
+        padding-right: 20px;
+        padding-top: 10px;
+
+    }
+
+    /*end header coding*/
+    /*start navbar coding*/
+    .navbar {
+        width: 100%;
+        position: absolute;
+        margin-top: 65px;
+        background-color: black;
+    }
+
+    .navbar-nav {
+        list-style-type: none;
+
+    }
+
+    .nav-item {
+        float: left;
+        margin-top: -12px;
+    }
+
+    .nav-item a {
+        display: block;
+        color: white;
+        font-family: sans-serif;
+        text-align: center;
+        margin-left: 10px;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    /* Change the link color on hover */
+    .nav-item a:hover {
+        background-color: #1AB501;
+        color: white;
+    }
+
+    .active {
+        background-color: #1AB501;
+        color: white;
+    }
+
+    /*end navbar coding*/
+    /*start introduction photo*/
+    .introduction-pic {
+        width: 100%;
+
+    }
+
+    .introduction-pic img {
+        margin-top: 50px;
+    }
+
+
+
+
+    /*end introduction photo*/
+    /*start section coding*/
+    section {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+
+    }
+
+    .row-1 {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .description-container {
+        width: 20%;
+        height: 350px;
+        padding: 20px;
+        float: left;
+        border: 1px solid #ddd;
+        box-shadow: 0px 0px 10px #ddd;
+        box-sizing: border-box;
+    }
+
+    .description-container i {
+        line-height: 5px;
+        cursor: pointer;
+    }
+
+    .col-2 {
+        width: 80%;
+        height: 340px;
+        float: left;
+        box-sizing: border-box;
+    }
+
+    .img-container {
+        text-align: center;
+
+    }
+
+    .img-box {
+        width: 30%;
+        height: 220px;
+        float: left;
+        padding: 10px;
+        margin: 16px;
+        border: 1px solid #ccc;
+        box-shadow: 0px 0px 10px #ddd;
+        box-sizing: border-box;
+    }
+
+    .img-button {
+        width: 80px;
+        height: 40px;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-family: sans-serif;
+        box-shadow: none;
+        background-color: rgb(107, 248, 85);
+        outline: none;
+    }
+
+    .img-button:hover {
+        background-color: #1AB501;
+    }
+
+    .row-2 {
+        width: 100%;
+        height: 350px;
+        float: left;
+        text-align: center;
+        margin-top: 20px;
+
+    }
+
+    .img-box-2 {
+        width: 22%;
+        height: 220px;
+        float: left;
+        padding: 10px;
+        margin: 16px;
+        border: 1px solid #ccc;
+        box-shadow: 0px 0px 10px #ddd;
+        box-sizing: border-box;
+    }
+
+    /*end section coding*/
+    /*start footer coding*/
+
+    .footer {
+        width: 100%;
+        height: 220px;
+        float: left;
+        margin-top: 40px;
+        background-color: black;
+    }
+
+    .first-footer,
+    .second-footer,
+    .third-footer,
+    .fourth-footer {
+        width: 24%;
+        height: 220px;
+        float: left;
+        line-height: 25px;
+        color: gray;
+    }
+
+    .icon-box i:hover {
+        color: white;
+        cursor: pointer;
+    }
+
+    .second-footer i:hover {
+        color: white;
+        cursor: pointer;
+    }
+
+    .third-footer i:hover {
+        color: white;
+        cursor: pointer;
+    }
+
+    .powerby {
+        width: 100%;
+        height: 60px;
+        float: left;
+        padding-top: 10px;
+        margin-bottom: 0;
+        background-color: black;
+        color: white;
+        text-align: center;
+    }
+
+    /*end footer coding */
+</style>
+
+<body>
+    <!--start header coding-->
+    <header>
+        <div class="logo-content">
+            <img src="photos/TheSweetShop.png">
+        </div>
+        <div class="address-content">
+            <i> Venue : 4 jiyala roy road,<br> Bangaluru, Karnatka 174103<br>
+                India's largest sweets and backeries shop</i>
+        </div>
+    </header>
+    <!--end header coding-->
+    <!--start nav coding-->
+    <nav class="navbar">
+        <ul class="navbar-nav">
+            <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="sweets.html" class="nav-link">Sweets</a></li>
+            <li class="nav-item"><a href="savories.html" class="nav-link">Savories</a></li>
+            <li class="nav-item"><a href="dryfood.html" class="nav-link">Dry Foods</a></li>
+            <li class="nav-item"><a href="biscuits.html" class="nav-link">Biscuits</a></li>
+            <li class="nav-item"><a href="minutekhana.html" class="nav-link">Minute Khana</a></li>
+            <li class="nav-item"><a href="contact.html" class="nav-link">Contact Us</a></li>
+            <li class="nav-item" style="float:right;"><a href="login.html" class="nav-link">Login & Signup</a></li>
+        </ul>
+        <a href="cart.html"><i class="fa fa-shopping-cart"
+                style="color:yellow;float:right;margin-right:30px;font-size:18px;"> Cart<div
+                    style="width:20px;height:20px;background-color:yellow; float: right;margin-left:7px;border-radius:40%;text-align: center;color: black;">
+                    <span>1</span></div></i></a>
+        <i class="fa fa-search" style="color: white;float:right;margin-right:30px;font-size:18px;" onclick="demo()"></i>
+    </nav>
+    <!--end nav coding-->
+    <div style="width:400px;height:35px;z-index:1000;position: absolute;border-radius: 10px;margin-top:120px;margin-left:50%;display:none;"
+        id="search-box">
+        <input type="text"
+            style="width:400px;height: 30px;border-radius: 10px;outline: none;background-color:black;color: white;padding:10px;font-size:18px;"
+            placeholder="Search items">
+    </div>
+    <!--start introuction with photo-->
+    <div style="width:99%;height:600px;float: left; margin-top:40px; margin:0px;padding:40px;box-sizing: border-box;">
+        <h1 style="font-family: sans-serif;"><i>You have <span style="color: red;">1</span> item in your cart</i></h1>
+        <div style="width: 99%;height:600px;border:1px solid #ccc; margin:auto; margin-bottom:20px;">
+        <div style="width:100%;height:40px;background-color:rgb(49, 49, 247);margin:0;box-sizing:border-box;padding:10px;color:white;font-family: sans-serif;"> CURRENTLY IN YOUR SHOPPING CART</div>
+        <div style="width: 100%;height:40px;border:1px solid #ddd;text-align: center;padding-top:10px;box-sizing: border-box;">
+            <div style="width:20%;float:left;">YOUR ITEM</div>
+            <div style="width:20%; float:left;">PRODUCT DETIALS</div>
+            <div style="width:20%; float:left;">QUANTITY</div>
+            <div style="width:20%; float:left;">TOTAL PRICE</div>
+            <div style="width:19%;float:left;">DELETE ITEM</div>
+        </div>
+        <div style="width: 100%;height:170px;border:1px solid #ddd;">
+        <div style="width:20%;height:100%; float:left;padding:10px; box-sizing: border-box;">
+         <img src="photos/1st/Rosgulla.jpg" width="100%" height="100%">
+        </div>
+        <div style="width:20%;height:100%; float:left;padding-left:30px;box-sizing:border-box;line-height:8px;padding-top:20px;">
+          <h3>Rosgulla</h3>
+          <p><b>Place : </b>West Bengal</p>
+          <p><b>Color : </b>White</p>
+          <p><b>Price : </b>Rs.5/pice</p>
+        </div>
+        <div style="width:20%;height:100%; float:left; padding-top:70px;padding-left:100px;box-sizing: border-box;">
+        <input type="number" value="1" style="width:40px;padding:5px;">
+        </div>
+        <div style="width:20%;height:100%; float:left;text-align: center;box-sizing: border-box;padding-top:60px;">
+         <h3><span class="fa fa-rupee"></span> 200</h3>
+        </div>
+        <div style="width:19%;height:100%; float:left;">
+        <i class="fa fa-trash-o" style="font-size:32px;box-sizing:border-box;padding-left: 100px;margin-top:70px;"></i>
+        </div>
+        </div>
+
+         <div style="background-color:rgb(250, 246, 246); height:60px;box-shadow:0px 0px 10px #ccc;padding: 4px;box-sizing: border-box;">
+          <button style="background-color:red;border:none; float:right; width:160px;height:50px;color:white; font-size:18px;border-radius:5px;cursor: pointer;" onclick="order()">CONTINUE</button>
+          <h1 style="float:right;margin-right:180px;margin-top:6px;"><span class="fa fa-rupee"></span> 200
+        </h1> 
+        </div>
+        </div>  
+    </div>
+   
+
+  <script>
+  function order(){
+      window.location="order.html";  
+  }
+  
+  </script>
+
+
+
+
+
+
+
+
+    <!--start footer coding-->
+    <footer class="footer">
+        <div class="first-footer" style="padding-left:30px;">
+            <h3><i>Address</i></h3>
+            <i> Venue : 4 jiyala roy road,<br> Bangaluru, Karnatka 174103<br>
+                Phone No : 6296725332<br>
+                Another no : 7585069971<br>
+                Email:souravsantra59680@gmail.com
+            </i>
+        </div>
+
+        <div class="second-footer">
+            <h3><i>Policy Information</i></h3>
+            <i>Privacy Policy</i><br>
+            <i>Cancellation and Return Policy</i><br>
+            <i>Contact Us</i><br>
+            <i>Shop Locator</i>
+
+        </div>
+
+        <div class="third-footer">
+            <h3><i>Useful Links</i></h3>
+            <i>Home</i><br>
+            <i>Sweets</i><br>
+            <i>Savories</i><br>
+            <i>Dry Foods</i><br>
+            <i>Biscuits</i>
+
+
+        </div>
+        <div class="fourth-footer">
+            <h3><i>Social Links</i></h3>
+            <div class="icon-box">
+                <i class="fa fa-facebook" style="float:left;padding-right: 10px;padding-top:5px;"></i>
+                <i>Facebook</i>
+            </div>
+
+            <div class="icon-box">
+                <i class="fa fa-google-plus" style="float:left;padding-right: 10px;padding-top:5px;"></i>
+                <i>Google</i>
+            </div>
+
+            <div class="icon-box">
+                <i class="fa fa-twitter" style="float:left;padding-right: 10px;padding-top:5px;"></i>
+                <i>Twitter</i>
+            </div>
+            <div class="icon-box">
+                <i class="fa fa-instagram" style="float:left;padding-right: 10px;padding-top:5px;"></i>
+                <i>Instagram</i>
+            </div>
+            <div class="icon-box">
+                <i class="fa fa-pinterest" style="float:left;padding-right: 10px;padding-top:5px;"></i>
+                <i>Pinterest</i>
+            </div>
+        </div>
+    </footer>
+
+    <!--end footer coding-->
+    <!--start power by coding-->
+    <div class="powerby">
+        <h4><i>POWERED BY SOURAV</i></h4>
+    </div>
+    <!--start search box coding-->
+
+    <script>
+        function demo() {
+            var x = document.getElementById("search-box");
+            if (x.style.display == "none")
+                x.style.display = "block";
+            else if (x.style.display == 'block')
+                x.style.display = "none";
+        }
+    </script>
+    <!--end search box coding-->
+    <!--end power by coding-->
+</body>
+
+</html>

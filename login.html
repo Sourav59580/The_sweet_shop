@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.css">
+
+
+    <!--script cdn-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+
+</head>
+
+<body>
+    <!--start login page coding-->
+    <div class="container-fluid">
+        <div class="container">
+            <div class="card mx-auto my-5" id="login-container">
+                <div class="card-header bg-warning text-center text-light">LOGIN</div>
+                <div class="card-body text-light" id="login-back">
+                    <form action="/dashboard" method="POST">
+                        <input type="email" name="email" placeholder="&#xf0e0; Email id" id="login-user" required
+                            style="background: none">
+                        <input type="password" name="password" placeholder="&#xf023; Password" id="login-password"
+                            required style="background: none">
+                        <button class="btn btn-lg btn-warning col-12 rounded-0 mb-3" type="submit">Login</button>
+
+                    </form>
+                    <h6 class="text-center mb-3">Continue With</h6>
+                    <div class="col-12 text-center mb-3 d-flex ml-5">
+
+                        <div class="rounded-circle text-center p-2 ml-4"
+                            style="background-color:navy;width:40px;height:40px;cursor: pointer;">
+                            <i class="fa fa-facebook rounded-circle" style="background-color:navy;" width="30px"></i>
+                        </div>
+                        <div class="rounded-circle text-center p-2 ml-4"
+                            style="background-color:blue;width:40px;height:40px;cursor: pointer;">
+                            <i class="fa fa-twitter rounded-circle" style="background-color:blue;" width="30px"></i>
+                        </div>
+                        <div class="rounded-circle text-center p-2 ml-4"
+                            style="background-color:orangered;width:40px;height:40px;cursor: pointer;">
+                            <i class="fa fa-google rounded-circle" style="background-color:orangered;" width="30px"></i>
+                        </div>
+                    </div>
+                    <div class="col-12 text-center">
+                        <span style="color:grey;text-decoration:none;">Don't have an account?</span><a
+                            href="signup.html">Create Account</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
